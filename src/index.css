@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.section-title {
+  text-align: center;
+  margin: 4rem 0 6rem 0;
+}
+.underline {
+  width: 8rem;
+  height: 0.25rem;
+  background-color: aqua;
+  margin: 0 auto;
+}
+.followers {
+  width: 90vw;
+  margin: 5rem auto;
+}
+.container {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+@media screen and (min-width: 576px){
+  .container{
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+.card{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px black;
+  padding: 2rem 3.5rem;
+  text-align: center;
+}
+.card img {
+   width: 130px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 0.75rem;
+}
+
+.card h4 {
+  margin-bottom: 1.4rem;
+  font-size: 0.80rem;
+  color: grey;
+}
+.btn{
+  padding: 0.35rem 0.75rem;
+  letter-spacing: 1.6px;
+  font-size: 0.75rem;
+  color: white; 
+  font-weight: 700;
+  background-color: lightblue;
+  border-color: transparent;
+  text-align: none;
+  border-radius: 5px;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.page-btn{
+  width: 2rem;
+  height: 2rem;
+  background-color: lightblue;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 0.5rem;
+  border-radius: 5px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+.prev-btn, .next-btn{
+  background: transparent;
+  border-color: transparent;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 0.5rem;
+  font-size: 1rem;
+
+}
