@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: gray;
 }
 
 code {
@@ -14,6 +15,8 @@ code {
 .section-title {
   text-align: center;
   margin: 4rem 0 6rem 0;
+  color: white;
+  font-style: oblique;
 }
 .underline {
   width: 8rem;
@@ -60,7 +63,7 @@ code {
   font-size: 0.75rem;
   color: white; 
   font-weight: 700;
-  background-color: lightblue;
+  background-color: rgb(13, 142, 185);
   border-color: transparent;
   text-align: none;
   border-radius: 5px;
@@ -73,7 +76,7 @@ code {
 .page-btn{
   width: 2rem;
   height: 2rem;
-  background-color: lightblue;
+  background-color: rgb(15, 176, 229);
   color: white;
   font-weight: bolder;
   cursor: pointer;
